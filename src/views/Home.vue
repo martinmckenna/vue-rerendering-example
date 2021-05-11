@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <index-bad /> -->
+    <not-index />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+// import IndexBad from "@/components/IndexBad2.vue";
+import NotIndex from "@/components/IndexBad.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    // IndexBad,
+    NotIndex
   }
 };
 </script>
